@@ -25,7 +25,7 @@ def pokemon_info(query):
         return str(query) + " has id " + str(decoded_response['id'])
 
     else:
-        return null
+        return "404: Pokemon not found. Please check if you have typed in the correct information."
 
 if __name__ == '__main__':
     app.run()
